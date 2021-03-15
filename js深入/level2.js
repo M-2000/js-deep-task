@@ -9,9 +9,12 @@ function even(arr) {
             arrf.push(arr[i]);
         }
     }
+    return arrf;
 }
-
+var arrf = [];
 let arr = [1, [2, [3, 4]]];
+even(arr);
+console.log(arrf);
 
 
 /*   非递归，toString数组扁平化
